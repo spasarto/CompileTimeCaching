@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="build\UnoGeneratorSample.props" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="build\UnoGeneratorSample.props" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Uno.SourceGeneration" Version="1.30.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CompileTimeCaching\CompileTimeCaching.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Uno.SourceGenerationTasks" Version="1.30.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UnoGeneratorSample\UnoGeneratorSample.csproj" />
+  </ItemGroup>
+
+  <Import Project="..\UnoGeneratorSample\build\UnoGeneratorSample.props" />
+</Project>
