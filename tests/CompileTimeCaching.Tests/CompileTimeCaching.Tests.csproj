@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CompileTimeCaching\CompileTimeCaching.csproj" />
+    <ProjectReference Include="..\..\src\CompileTimeCaching\CompileTimeCaching.csproj" />
   </ItemGroup>
 
 </Project>

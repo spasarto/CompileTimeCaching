@@ -80,4 +80,5 @@ Some potential TODOs for this project:
 * Add a sample project using the above stack
 * Integrate more seemlessly with a compilation project
 
-
+## License
+MITT
